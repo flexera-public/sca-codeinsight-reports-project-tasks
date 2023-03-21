@@ -12,7 +12,6 @@ This repository utilizes the following via CDN for the creation of the report ar
 
 **Code Insight Release Requirements**
 
-
 |Repository Tag | Minimum Code Insight Release |
 |--|--|
 |1.0.x |2021R4 |
@@ -58,7 +57,7 @@ If the common **server_properties.json** files is not used then the information 
 
 [create_report.py](create_report.py)  -  Update the **baseURL** value. This URL is used for links within the reports.
 
-Report option default values can also be specified in [registration.py](registration.py) within the reportOptions dictionaries.
+Report options and default values can also be specified in [registration_config.json](registration_config.json).
 
 ### Registering the Report
 
