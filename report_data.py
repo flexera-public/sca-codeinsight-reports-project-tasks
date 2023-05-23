@@ -99,7 +99,7 @@ def gather_data_for_report(baseURL, projectID, authToken, reportName, reportOpti
             projectTaskData["inventoryId"] = task["inventoryId"]
             projectTaskData["summary"] = task["summary"]
             projectTaskData["priority"] = task["priority"]
-            projectTaskData["almIssues"] = []
+            projectTaskData["almIssues"] = task["almIssues"]
 
             projectTaskData["taskCreator"] = userData[taskCreator]
             projectTaskData["taskOwner"] = userData[taskOwner]
