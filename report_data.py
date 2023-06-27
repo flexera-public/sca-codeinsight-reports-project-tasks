@@ -111,10 +111,7 @@ def gather_data_for_report(baseURL, projectID, authToken, reportName, reportOpti
     
 
             projectData[projectName]["projectTaskData"].append(projectTaskData)
-            
-        print(projectData[projectName]["projectTaskData"])
-
-        
+                  
 
     # for project in projectData:
     #     print(projectData[project])
